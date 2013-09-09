@@ -1,6 +1,6 @@
-# python-vba
+# python-vba-wrapper
 
-**python-vba** is a python ctypes wrapper for the VBA emulator.
+**python-vba-wrapper** is a python ctypes wrapper for the VBA emulator.
 
 ## installing
 
@@ -9,7 +9,7 @@ Follow the build instructions in the README for
 included through setup.py by default, but for now this is a manual procedure. Continue installing by the following steps.
 
 ```bash
-pip install -U vba
+pip install -U vba-wrapper
 ```
 
 or
