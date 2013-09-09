@@ -18,7 +18,7 @@ requires = open("requirements.txt").readlines()
 
 setup(
     name="vba-wrapper",
-    version="0.0.1",
+    version="0.0.2",
     description="wrapper for the VBA emulator",
     long_description=open("README.md", "r").read(),
     license="BSD",
