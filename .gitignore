@@ -1,0 +1,20 @@
+# precompiled python
+*.pyc
+
+# precompiled jython
+*$py.class
+
+# swap files for vim
+.*.swp
+
+# swap files for gedit
+*~
+
+# for vim configuration
+# http://www.vim.org/scripts/script.php?script_id=441
+.lvimrc
+
+# python packaging
+vba_wrapper.egg-info/
+dist/
+build/
