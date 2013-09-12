@@ -12,8 +12,9 @@ def _load_library_vba():
     """
     Use ctypes to load VBA.
     """
-    # TODO: don't use a relative path here
-    lib = ctypes.cdll.LoadLibrary("./src/clojure/.libs/libvba.so")
+    # TODO: make sure it's the correct version of the vba library
+    # was ./src/clojure/.libs/libvba.so
+    lib = ctypes.cdll.LoadLibrary("libvba.so")
     return lib
 
 def _ctypes_make_list(l, base):
