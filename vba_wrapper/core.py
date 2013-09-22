@@ -315,7 +315,7 @@ class VBA(object):
         # 29 registers
         buf = (ctypes.c_int32 * self.register_count)()
         buf[:] = registers
-        self._vba.set_registers(registers)
+        self._vba.set_registers(buf)
 
     def _get_max_save_size(self):
         return self._vba.get_max_save_size()
